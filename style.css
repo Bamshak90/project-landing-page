@@ -94,4 +94,57 @@ li {
 
 
 
+/* Start of the info section */
+
+.info-section {
+    padding-top: 30px;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-bottom: 90px;
+    /* border: 2px solid red; */
+}
+
+.info-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+
+.boxes {
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-evenly;
+}
+
+.samples {
+    max-width:3700px;
+    height: 150px;
+    border-radius: 10px;
+    border: 7px solid #3882f6;
+    /* background-color: red; */
+}
+
+.info-section p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #505050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
