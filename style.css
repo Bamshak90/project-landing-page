@@ -76,7 +76,7 @@ li {
 
 
 .hero-section .btn {
-    padding: 8px 20px;
+    padding: 8px 25px;
     border: none;
     border-radius: 6px;
     background-color: #3882f6;
@@ -186,8 +186,17 @@ li {
     background-color: #3882f6;
     color: #fff;
     border: 2px solid #fff;
+    cursor: pointer;
 }
 
+
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
 
 
 
