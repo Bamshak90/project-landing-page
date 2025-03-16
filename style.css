@@ -5,99 +5,91 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wrapper {
-    max-width: 100%;
-    height: 100vh;
-    /* background-color: #1f2937; */
+.container {
+    background-color: #1f2937;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 400px;
+    padding-left: 400px;
 }
 
-.container {
-    max-width: 1500px;
-    margin: 0 auto;
-    height: 100%;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 20px;
 }
 
 li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 .logo {
     font-size: 24px;
     font-weight: 700;
-}
-
-.header {
-    background-color: #1f2937;
-    color: #fff;
-    height: 500px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    
-}
-
-.nav-links ul {
-    display: flex;
-    gap: 16px;
+    cursor: pointer;
+    color: #f9faf8;
 }
 
 .nav-links a {
+    text-decoration: none;
     color: #fff;
-    gap: 16px;
-}
-img {
-    width: 100%;
 }
 
 .hero-section {
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 90px 0;
+
 }
 
 .hero-text {
-    width: 400px;
-
+    width: 450px;
+    height: 200px;
 }
 
-.hero-text p {
-    margin-bottom: 10px;
-}
-
-.hero-section .btn {
-    padding: 8px 16px;
-    border-radius: 8px;
-    background-color: #3882f6;
-    border: none;
-}
 
 .hero-text h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+
 }
 
+/* .hero-img {
+    width: 450px;
+    height: 200px;
+} */
 
-.hero-img {
-    width: 500px;
-    height: 500px;
+.hero-section img {
+    width: 520px;
+    height: 250px;
     border-radius: 10px;
 }
 
 
 
+.hero-section .btn {
+    padding: 8px 20px;
+    border: none;border-radius: 6px;
+    background-color: #3882f6;
+    color: #fff;
+    margin-top: 10px;
+    /* font-weight: 700; */
+    cursor: pointer;
+    font-size: 18px;
+}
 
-
-
+.hero-section p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 
 
